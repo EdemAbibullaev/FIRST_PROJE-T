@@ -1,0 +1,246 @@
+.page {
+    font-family: "Inter_regular";
+}
+ 
+.content-section {
+    box-sizing:border-box;
+    width: 360px;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.content-section_theme_dark{
+    background-color: #000000;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.content-section_theme_bright{
+    background-color: #FEE42A;
+}
+
+.header__logo{
+    width: 79px;
+    height: 16px;
+}
+.header__logo-image{
+    width: 100%;
+    height: 100%;
+}
+
+.header__menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: start;
+}
+
+.header__menu-item_active{
+    text-decoration: none;
+}
+
+.header__menu-link{
+    color: white;
+    font-size: 16px;
+    font-family: "Inter_regular";
+    text-underline-offset: 4px;
+}
+
+.cover{
+    height: 700px;
+    width: 360px;
+    padding-top: 24px;
+    color: white;
+    text-align: left;
+    font-family: "Inter_regular";
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.cover__title{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.cover__title-img{
+    position: absolute;
+    top: 40px;
+    left: 12px;
+}
+
+.accent-span{
+    font-family: "EB Garamond_regular";
+    font-size: 72px;
+    display: block;
+}
+
+.accent-span:nth-child(2) {
+    align-self: flex-start;
+}
+
+.accent-span:nth-child(3) {
+    align-self: center;
+}
+
+.accent-span:nth-child(4) {
+    align-self: flex-end;
+}
+
+.cover__text-title{
+    display: flex;
+    justify-content: space-between;
+    color: #cccccc;
+    font-family: "Inter_regular";
+    font-size: 16px;
+}
+
+.text-title {
+    font-family: "Inter_regular";
+    font-size: 16px;
+}
+.text-center {
+    font-family: "Inter_regular";
+    font-size: 16px;
+}
+
+.reasons{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.reasons__text-title:nth-child(1){
+    text-align: right;
+}
+
+.reasons__text-title:nth-child(2){
+    text-align: left;
+}
+
+.reasons__list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding-top: 32px;
+}
+
+.reasons__text-title{
+    font-family: "EB Garamond_medium";
+    font-size: 28px;
+}
+
+.reasons__text-main{
+    text-align: left;
+    padding-top: 32px;
+}
+
+.reasons__list-item {
+    text-align: left;
+   
+}
+
+.reasons__list-item-title{
+    font-family: "Inter_bold";
+    font-size: 16px; 
+}
+
+.how-to{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.how-to__introduction{
+    text-align: left;
+}
+.intro{
+    padding-bottom: 60px;
+}
+.card {
+    text-align: left;
+    color: #F5F5F5;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.cards-list{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+
+.card__photo-avtor{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.card__author-name{
+    font-family: "Inter_bold";
+    font-size: 16px; 
+}
+
+.card__title{
+    font-family: "EB Garamond_medium";
+    font-size: 22px;
+}
+
+.card__theme_dark{
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    background-color: #343434;
+}
+.card__theme_bright{
+    background-color: #FEE42A;
+    color: #131313;
+
+}
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.footer__top-line{
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background-color: #FEE42A;
+    top: 0;
+    left: 0;
+}
+.footer__copy{
+    color: #F5F5F5;
+}
+
+.footer__links{
+    display: flex;
+    gap: 20px;
+}
+
+.footer__social-logo{
+    width: 35px;
+    height: 35px;
+    fill: #FEE42A;
+    
+}
+
